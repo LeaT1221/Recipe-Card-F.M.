@@ -92,7 +92,6 @@ p, li, label{
     counter-increment: num; 
     padding-bottom: 2%;
 } 
-
 #instructions ol li::before { 
     content: counter(num) ". "; 
     color: hsl(14, 45%, 36%);
@@ -137,4 +136,19 @@ p, li, label{
 }
 #nut-info-4{
     border: none;
+}
+
+/* Footer */
+footer a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin-top: 5%;
+    color: hsl(14, 45%, 36%);
+}
+footer a:hover{
+    cursor: pointer;
+    color: hsl(26, 100%, 38%);
+    font-weight: bold;
 }
